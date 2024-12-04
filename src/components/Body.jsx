@@ -20,6 +20,7 @@ const Body = () => {
     //we do we so we dont make api calls again and again if we already have the user in the store
     if(userData)
       return;
+    else
     try{const res=await axios.get(BASE_URL+"/profile/view",{
       withCredentials:true
     })
