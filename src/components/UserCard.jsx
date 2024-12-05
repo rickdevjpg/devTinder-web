@@ -13,7 +13,6 @@ const UserCard = ({user}) => {
     <img
       src={user.photoUrl}
       alt="photo" 
-      className=" size-52"
       />
   </figure>
   <div className="card-body">
